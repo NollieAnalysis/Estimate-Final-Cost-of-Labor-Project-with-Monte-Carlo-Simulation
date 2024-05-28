@@ -3,7 +3,7 @@
 # Project Objectives:
 First we gather an initial estimate of days and daily cost for project tasks based on hourly wage rate, number of workers, quantity of work to perform, labor production rate, and working hours per day.
 
-After the initial estimate we use those parameters, along with a standard deviation rate (for uncertainty level) and specified simulation count, to model different working scenarios that result in different production rates. The varying production rates will directly effect final task costs and overall project cost.
+After the initial estimate we use those parameters, along with a standard deviation rate (for uncertainty level) and a specified monte carlo simulation count, to model different working scenarios that result in different production rates. The varying production rates will directly effect final task costs and overall project cost.
 
 This simulation is relevant due to the difficulty of achieving consistent production rates on a construction project. Any factor of items can effect daily rates. Examples include, other trades interfering with your work area, not enough material, bad weather, and material not close enough to work area. The resulting statistics can be helpful in budgeting for various project costs. Furthermore, using the outputted mean and standard deviation can provide confidence and structure to project estimates and or budgeting exercises.
 
@@ -174,3 +174,24 @@ Here's a clearer explanation:
 '''
 
 ```
+
+
+Initial estimated durations (in days) and daily cost
+
+![Initial-days-and-daily-rates](https://github.com/NollieAnalysis/Estimate-Final-Cost-of-Labor-Project-with-Monte-Carlo-Simulation/assets/163913188/e4d9a9b6-d0ae-48d9-beec-7b749c953164)
+
+
+Simulation statistics
+
+![outputted-cost-statistics](https://github.com/NollieAnalysis/Estimate-Final-Cost-of-Labor-Project-with-Monte-Carlo-Simulation/assets/163913188/a1845c58-3500-4764-9ed4-490f24cd6bb9)
+
+![outputted-cost-statistics-2](https://github.com/NollieAnalysis/Estimate-Final-Cost-of-Labor-Project-with-Monte-Carlo-Simulation/assets/163913188/a7bc1abf-9309-40bb-a761-fe4a4c28c590)
+
+
+Simulation plots
+
+![dist-of-total-project-costs](https://github.com/NollieAnalysis/Estimate-Final-Cost-of-Labor-Project-with-Monte-Carlo-Simulation/assets/163913188/308d0cad-a046-4596-a69c-93115df07139)
+
+![dist-of-task-costs](https://github.com/NollieAnalysis/Estimate-Final-Cost-of-Labor-Project-with-Monte-Carlo-Simulation/assets/163913188/a5d85e5f-68af-45bd-bad2-0378a4f26281)
+
+![variance-between-initial-estimates-and-simulated-durations](https://github.com/NollieAnalysis/Estimate-Final-Cost-of-Labor-Project-with-Monte-Carlo-Simulation/assets/163913188/64c5010c-7621-435a-be44-e0b8f1b68d81)
